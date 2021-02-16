@@ -1,0 +1,94 @@
+@import 'vars';
+
+mark {
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+li {
+    line-height: 1.4em;
+
+    &:not(:last-child) {
+        padding-bottom: 0.4em;
+    }
+}
+
+p {
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.resume {
+    h1 {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .skills {
+        margin-top: 1.5rem;
+
+        h2 {
+            border-bottom: 2px solid $color-text-accent;
+            margin: 0;
+        }
+
+        .skill-group {
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid $color-border-card;
+            }
+
+            h3 {
+                margin: 0;
+                margin-bottom: 0.5rem;
+            }
+
+            ul {
+                margin: 0;
+            }
+        }
+    }
+
+    .experiences {
+        margin-top: 1.5rem;
+
+        h2 {
+            border-bottom: 2px solid $color-text-accent;
+            margin: 0;
+        }
+
+        .experience-group {
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid $color-border-card;
+            }
+            
+            h3 {
+                margin: 0;
+                margin-bottom: 0.5rem;
+            }
+
+            .experience-details {
+                color: $color-text-tertiary;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 0.75rem;
+
+                @media (max-width: 480px) {
+                    flex-direction: column;
+
+                    span:first-child {
+                        margin-bottom: 0.3em;
+                    }
+                }
+            }
+
+            ul {
+                margin: 0;
+            }
+        }
+    }
+}

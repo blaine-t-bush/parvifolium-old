@@ -1,0 +1,76 @@
+@import 'vars';
+
+h1 {
+    text-align: center;
+}
+
+main {
+    max-width: 820px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+    column-gap: 0.75rem;
+    row-gap: 1.5rem;
+
+    @media (max-width: 600px) {
+        grid-template-columns: 1fr;
+        column-gap: unset;
+    }
+
+    .project {
+        background-color: $color-background-card;
+        border: 1px solid $color-border-card;
+        box-shadow: 2px 2px 5px $color-border-card;
+        transition: all 0.2s ease-in-out;
+    
+        margin-left: $card-translate-distance;
+        margin-right: $card-translate-distance;
+
+        height: 100%;
+        width: 100%;
+        max-width: 400px;
+    
+        &:hover {
+            box-shadow: 4px 4px 10px $color-border-card;
+    
+            margin-left: 0;
+            margin-right: 2*$card-translate-distance;
+        }
+
+        a {
+            color: unset;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            text-decoration: none;
+
+            .img-wrapper {
+                width: 100%;
+
+                img {
+                    border: 2px solid $color-text-accent;
+                    box-sizing: border-box;
+                    display: block;
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+
+            h2 {
+                margin: 0;
+                margin-top: 0.5rem;
+                text-align: center;
+            }
+
+            div.description {
+                margin-top: 0.5rem;
+                text-align: center;
+            }
+        }
+    }
+}

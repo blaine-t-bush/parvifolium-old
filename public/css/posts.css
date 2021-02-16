@@ -1,0 +1,127 @@
+main {
+  position: relative;
+}
+
+aside {
+  box-sizing: border-box;
+  padding: 0 1rem;
+  position: absolute;
+  top: 4.5rem;
+  right: -200px;
+  width: 200px;
+}
+@media (max-width: 1200px) {
+  aside {
+    position: unset;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  aside h3 {
+    text-align: center;
+  }
+}
+aside h3 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+aside div.categories {
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  display: grid;
+  grid-template-columns: -webkit-min-content -webkit-min-content;
+  grid-template-columns: min-content min-content;
+  row-gap: 10px;
+}
+aside div.categories a {
+  text-decoration: none !important;
+}
+aside div.categories a:visited {
+  color: unset;
+}
+aside div.categories a:link {
+  color: unset;
+}
+aside div.categories i {
+  justify-self: center;
+  text-align: center;
+  width: 22px;
+}
+aside div.categories i.selected {
+  color: #8c0000;
+}
+aside div.categories span.selected {
+  color: #8c0000;
+  font-weight: bold;
+}
+
+article {
+  background-color: #d2d2d2;
+  border: 1px solid #cdcdcd;
+  box-shadow: 2px 2px 5px #cdcdcd;
+  transition: all 0.2s ease-in-out;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+article:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+article:hover {
+  box-shadow: 4px 4px 10px #cdcdcd;
+  margin-left: 0;
+  margin-right: 10px;
+}
+article a {
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+  display: grid;
+  grid-template-columns: -webkit-min-content auto;
+  grid-template-columns: min-content auto;
+  grid-template-rows: auto auto auto;
+  padding: 1rem;
+  text-decoration: none;
+}
+article a:link {
+  color: unset;
+}
+article a:visited {
+  color: unset;
+}
+article a i.fa, article a i.fas {
+  font-size: 1.5rem;
+  grid-column: 1/span 1;
+  grid-row: 1/span 1;
+}
+article a h2 {
+  grid-column: 2/span 1;
+  grid-row: 1/span 1;
+  margin: 0;
+}
+article a p.posted-at {
+  grid-column: 2/span 1;
+  grid-row: 2/span 1;
+  color: #505050;
+  margin-top: 0.5em;
+}
+@media (max-width: 360px) {
+  article a p.posted-at {
+    grid-column: 1/span 2;
+  }
+}
+article a summary {
+  grid-column: 2/span 1;
+  grid-row: 3/span 1;
+  margin: 0;
+}
+@media (max-width: 360px) {
+  article a summary {
+    grid-column: 1/span 2;
+  }
+}
+article a summary p {
+  margin: 0;
+  line-height: 1.5em;
+}

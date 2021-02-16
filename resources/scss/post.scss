@@ -1,0 +1,72 @@
+@import 'vars';
+
+h1 {
+    margin-bottom: 0;
+}
+
+p.posted-at {
+    color: $color-text-tertiary;
+    margin-top: 0.5em;
+}
+
+img {
+    border-radius: 0.3em;
+    cursor: pointer;
+    display: block;
+}
+
+article > p > img {
+    margin: auto;
+    max-width: 100%;
+}
+
+p, li {
+    line-height: 1.5em;
+}
+
+p.image-caption {
+    color: $color-text-secondary;
+    font-size: 0.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.75em;
+    text-align: center;
+    width: 80%;
+}
+
+code {
+    background-color: $color-background-code;
+    border-radius: 0.3em;
+    padding: 0 0.2em;
+}
+
+pre {
+    background-color: $color-background-code;
+    border-radius: 0.3em;
+    padding: 0.4em 0.6em;
+    overflow-x: scroll;
+
+    code {
+        background-color: unset;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+table {
+    border-collapse: collapse;
+
+    th, td {
+        padding: 0.3em;
+    }
+
+    thead tr {
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-bottom: 1px solid black;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+}

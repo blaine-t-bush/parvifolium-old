@@ -1,0 +1,201 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+@import 'vars';
+
+html, body {
+    background-color: $color-background-body;
+    color: $color-text-primary;
+    font-family: 'Newsreader', serif;
+}
+
+header {
+    background-color: $color-background-header;
+    border-bottom: 1px solid $color-border-header;
+    box-shadow: 0 2px 5px $color-border-header;
+    height: $header-height;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    nav {
+        align-items: center;
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: bold;
+        height: 100%;
+        justify-content: space-between;
+        margin: auto;
+        max-width: $main-max-width;
+        width: 95%;
+
+        @media (max-width: 460px) {
+            font-size: 1.1rem;
+        }
+
+        .nav-home {
+            align-items: center;
+            display: flex;
+
+            a {
+                align-items: center;
+                display: flex;
+
+                &:hover {
+                    img {
+                        height: 2.2rem;
+                    }
+
+                    span {
+                        font-size: 1.65rem;
+
+                        @media (max-width: 460px) {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+
+                img {
+                    height: 2rem;
+                    margin-right: 0.5rem;
+                    min-width: 2rem;
+                    transition: all 0.2s ease;
+                }
+
+                span {
+                    margin: 0 0.5rem;
+                    transition: font-size 0.2s ease;
+
+                    &.current-route {
+                        text-decoration: underline;
+                    }
+
+                    @media (max-width: 600px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .nav-links {
+            align-items: center;
+            display: flex;
+
+            a {
+                margin: 0 1rem;
+                transition: font-size 0.2s ease;
+
+                @media (max-width: 600px) {
+                    margin: 0 0.5rem;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &:hover {
+                    font-size: 1.6rem;
+
+                    @media (max-width: 460px) {
+                        font-size: 1.2rem;
+                    }
+                }
+
+                &.current-route {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        a {
+            color: $color-text-accent !important;
+            text-decoration: none;
+        }
+    }
+}
+
+a {
+    &:link {
+        color: $color-text-accent;
+    }
+    
+    &:visited {
+        color: $color-text-accent-visited;
+    }
+}
+
+main {
+    box-sizing: border-box;
+    min-height: 95vh;
+    margin: auto;
+    max-width: $main-max-width;
+    width: 95%;
+    padding-top: 1.5*$header-height;
+    z-index: 0;
+    
+    h1:first-child {
+        margin-top: 0;
+    }
+}
+
+summary {
+    display: block;
+}
+
+footer {
+    align-items: center;
+    color: $color-text-tertiary;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    height: 5vh;
+    margin: auto;
+    max-width: $main-max-width;
+    text-align: center;
+    width: 95%;
+}
+
+a.has-icon {
+    text-decoration: none;
+
+    span {
+        text-decoration: underline;
+    }
+}
+
+img.post {
+    display: block;
+    margin: auto;
+    max-width: 480px;
+    width: 100%;
+}
+
+img.border {
+    border: 2px solid $color-text-accent;
+}
+
+.contact {
+    margin-bottom: 1rem;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+            padding: 0.5em;
+
+            a {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    }
+}

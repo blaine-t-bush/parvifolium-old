@@ -1,0 +1,95 @@
+@import 'vars';
+
+@keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+
+    50% {
+        background-position: top left;
+    }
+
+    100% {
+        background-position: top right;
+    }
+}
+
+.shimmer {
+    background: linear-gradient(45deg, $color-text-accent-lighter, $color-text-accent-lighter 40%, #ffffffaa 50%, $color-text-accent-lighter 60%, $color-text-accent-lighter);
+    animation-name: shimmer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-position: 0 0;
+    background-size: 500px 1.4em;
+    background-repeat: no-repeat;
+}
+
+.shimmer-delay-1 {
+    animation-delay: 1s;
+}
+
+.shimmer-delay-2 {
+    animation-delay: 2s;
+}
+
+.shimmer-delay-3 {
+    animation-delay: 3s;
+}
+
+pre#code-compact {
+    display: none;
+}
+
+pre#code {
+    display: block;
+}
+
+@media (max-width: 620px) {   
+    pre#code-compact {
+        display: block;
+        padding: 0.5em 0.4em;
+    }
+
+    pre#code {
+        display: none;
+    }
+}
+
+pre {
+    background-color: rgb(100, 100, 100);
+    border-radius: 0.3em;
+    color: rgb(180, 180, 180);
+    line-height: 1.4rem;
+    padding: 0.5em 0.8em;
+
+    span.define {
+        color: #569CD6DD;
+    }
+
+    span.function {
+        color: #DCDCAADD;
+    }
+
+    span.variable {
+        color: #9CDCFEDD;
+    }
+
+    span.keyword {
+        color: #C586C0DD;
+    }
+
+    span.string {
+        color: #CE9178DD;
+    }
+
+    span.comment {
+        color: #6A9955DD;
+    }
+
+    a {
+        border-radius: 0.2em;
+        color: $color-text-accent;
+        padding: 0 0.1em;
+        text-decoration: none;
+    }
+}

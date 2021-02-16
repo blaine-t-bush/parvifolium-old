@@ -1,0 +1,99 @@
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  50% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  50% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+.shimmer {
+  background: linear-gradient(45deg, #d6a6a6, #d6a6a6 40%, #ffffffaa 50%, #d6a6a6 60%, #d6a6a6);
+  -webkit-animation-name: shimmer;
+          animation-name: shimmer;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  background-position: 0 0;
+  background-size: 500px 1.4em;
+  background-repeat: no-repeat;
+}
+
+.shimmer-delay-1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.shimmer-delay-2 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.shimmer-delay-3 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+pre#code-compact {
+  display: none;
+}
+
+pre#code {
+  display: block;
+}
+
+@media (max-width: 620px) {
+  pre#code-compact {
+    display: block;
+    padding: 0.5em 0.4em;
+  }
+
+  pre#code {
+    display: none;
+  }
+}
+pre {
+  background-color: #646464;
+  border-radius: 0.3em;
+  color: #b4b4b4;
+  line-height: 1.4rem;
+  padding: 0.5em 0.8em;
+}
+pre span.define {
+  color: #569CD6DD;
+}
+pre span.function {
+  color: #DCDCAADD;
+}
+pre span.variable {
+  color: #9CDCFEDD;
+}
+pre span.keyword {
+  color: #C586C0DD;
+}
+pre span.string {
+  color: #CE9178DD;
+}
+pre span.comment {
+  color: #6A9955DD;
+}
+pre a {
+  border-radius: 0.2em;
+  color: #8c0000;
+  padding: 0 0.1em;
+  text-decoration: none;
+}

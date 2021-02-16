@@ -1,0 +1,76 @@
+mark {
+  background-color: rgba(255, 255, 0, 0.3);
+}
+
+li {
+  line-height: 1.4em;
+}
+li:not(:last-child) {
+  padding-bottom: 0.4em;
+}
+
+p {
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.resume h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.resume .skills {
+  margin-top: 1.5rem;
+}
+.resume .skills h2 {
+  border-bottom: 2px solid #8c0000;
+  margin: 0;
+}
+.resume .skills .skill-group {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.resume .skills .skill-group:not(:last-child) {
+  border-bottom: 1px solid #cdcdcd;
+}
+.resume .skills .skill-group h3 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.resume .skills .skill-group ul {
+  margin: 0;
+}
+.resume .experiences {
+  margin-top: 1.5rem;
+}
+.resume .experiences h2 {
+  border-bottom: 2px solid #8c0000;
+  margin: 0;
+}
+.resume .experiences .experience-group {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.resume .experiences .experience-group:not(:last-child) {
+  border-bottom: 1px solid #cdcdcd;
+}
+.resume .experiences .experience-group h3 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.resume .experiences .experience-group .experience-details {
+  color: #505050;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+@media (max-width: 480px) {
+  .resume .experiences .experience-group .experience-details {
+    flex-direction: column;
+  }
+  .resume .experiences .experience-group .experience-details span:first-child {
+    margin-bottom: 0.3em;
+  }
+}
+.resume .experiences .experience-group ul {
+  margin: 0;
+}
