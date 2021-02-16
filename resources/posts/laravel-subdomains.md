@@ -60,4 +60,4 @@ server {
 
 And you should be all done. If you're having trouble, double-check your nginx syntax and restart the service.
 
-[img_subdomain_registration]: http://127.0.0.1:8000/img/posts/subdomain_registration.png
+[img_subdomain_registration]: /img/posts/subdomain_registration.png

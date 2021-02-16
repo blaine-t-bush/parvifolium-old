@@ -212,14 +212,14 @@ export default {
     position: relative;
 
     background-clip: content-box;
-    background-image: url('https://www.parvifolium.net/images/whitehack/sheet_background.jpg');
+    background-image: url('https://www.parvifolium.net/img/whitehack/sheet_background.jpg');
     background-size: cover;
 
     // padding: 1rem 0.5rem;
     // border: 1px dashed black;
 
     border: 30px solid;
-    border-image-source: url('https://www.parvifolium.net/images/whitehack/sheet_border.png');
+    border-image-source: url('https://www.parvifolium.net/img/whitehack/sheet_border.png');
     border-image-slice: 60;
     border-image-width: 4;
     border-image-repeat: round;

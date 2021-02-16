@@ -1,12 +1,12 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/js/whitehack-char-gen.js": "/js/whitehack-char-gen.js",
-    "/js/osrs-slayer-tasks.js": "/js/osrs-slayer-tasks.js",
-    "/css/app.css": "/css/app.css",
-    "/css/post.css": "/css/post.css",
-    "/css/posts.css": "/css/posts.css",
-    "/css/home.css": "/css/home.css",
-    "/css/portfolio.css": "/css/portfolio.css",
-    "/css/resume.css": "/css/resume.css",
-    "/css/about.css": "/css/about.css"
+    "/js/app.js": "/js/app.js?id=b2bd2a9e93d1630ac3ad",
+    "/js/whitehack-char-gen.js": "/js/whitehack-char-gen.js?id=2f5c2b1e4ba434bbff3d",
+    "/js/osrs-slayer-tasks.js": "/js/osrs-slayer-tasks.js?id=2da34309c6efa2068f4a",
+    "/css/app.css": "/css/app.css?id=cee6af9ae0c839d3a7c1",
+    "/css/post.css": "/css/post.css?id=66c60a9a7653365fe3b0",
+    "/css/posts.css": "/css/posts.css?id=24947332258a6dda4977",
+    "/css/home.css": "/css/home.css?id=3b5d73fd649800094d26",
+    "/css/portfolio.css": "/css/portfolio.css?id=62efef199605e4f28cca",
+    "/css/resume.css": "/css/resume.css?id=f4875cd603789376221b",
+    "/css/about.css": "/css/about.css?id=4ca264f090ff6fc0863b"
 }
