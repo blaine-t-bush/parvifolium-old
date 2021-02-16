@@ -21,4 +21,5 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/scss/about.scss', 'public/css')
     .sass('resources/scss/resume.scss', 'public/css')
     .sass('resources/scss/portfolio.scss', 'public/css')
-    .vue();
+    .vue()
+    .version();
