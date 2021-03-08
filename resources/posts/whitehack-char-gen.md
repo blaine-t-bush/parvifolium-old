@@ -8,7 +8,7 @@
 rpg
 
 # summary
-A random character generator for Christian Merhstam's *Whitehack* Second Edition, a tabletop roleplaying game à la *Dungeons & Dragons*.
+A random character generator for Christian Mehrstam's *Whitehack* Second Edition, a tabletop roleplaying game à la *Dungeons & Dragons*.
 
 # body
 <div id="app"></div>
