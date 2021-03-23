@@ -38,7 +38,7 @@
 
     <p>
         If you think I could be a good fit for your team,
-        send me an email.
+        contact me via <a href="mailto:blaine.bush@gmail.com">email</a> or <a href="https://www.linkedin.com/in/blainetbush/">LinkedIn</a>.
     </p>
 
     <div class="skills">
@@ -71,6 +71,15 @@
             <ul>
                 <li>Linux</li>
                 <li>Git</li>
+            </ul>
+        </div>
+
+        <div class="skill-group">
+            <h3>Soft</h3>
+            <ul>
+                <li>Critical thinking & quantitative problem solving</li>
+                <li>Teaching technical concepts approachably</li>
+                <li>Attention to detail & adaptability</li>
             </ul>
         </div>
     </div>
