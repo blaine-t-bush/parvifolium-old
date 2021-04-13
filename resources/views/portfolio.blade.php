@@ -22,7 +22,7 @@
 
 <div class="projects">
     <div class="project">
-        <a href="https://folia.parvifolium.net">
+        <a href="/posts/folia">
             <div class="img-wrapper">
                 <img src="/img/portfolio/folia_preview.png">
             </div>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="project">
-        <a href="/dice-room">
+        <a href="/posts/dice-room">
             <div class="img-wrapper">
                 <img src="/img/portfolio/diceroom_preview.png">
             </div>
