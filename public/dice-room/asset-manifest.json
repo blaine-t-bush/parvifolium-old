@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/dice-room/static/js/main.66d6f8d0.chunk.js",
+    "main.js.map": "/dice-room/static/js/main.66d6f8d0.chunk.js.map",
+    "runtime-main.js": "/dice-room/static/js/runtime-main.e22aa744.js",
+    "runtime-main.js.map": "/dice-room/static/js/runtime-main.e22aa744.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/dice-room/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.6d9fc824.chunk.js": "/dice-room/static/js/2.6d9fc824.chunk.js",
+    "static/js/2.6d9fc824.chunk.js.map": "/dice-room/static/js/2.6d9fc824.chunk.js.map",
+    "static/css/3.87e58fef.chunk.css": "/dice-room/static/css/3.87e58fef.chunk.css",
+    "static/js/3.e60c4e91.chunk.js": "/dice-room/static/js/3.e60c4e91.chunk.js",
+    "static/js/3.e60c4e91.chunk.js.map": "/dice-room/static/js/3.e60c4e91.chunk.js.map",
+    "index.html": "/dice-room/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/dice-room/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/3.87e58fef.chunk.css.map": "/dice-room/static/css/3.87e58fef.chunk.css.map",
+    "static/js/2.6d9fc824.chunk.js.LICENSE.txt": "/dice-room/static/js/2.6d9fc824.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e22aa744.js",
+    "static/js/main.66d6f8d0.chunk.js"
+  ]
+}
