@@ -22,7 +22,7 @@
 
 <div class="projects">
     <div class="project">
-        <a href="/posts/folia">
+        <a href="https://folia.parvifolium.net">
             <div class="img-wrapper">
                 <img src="/img/portfolio/folia_preview.png">
             </div>
@@ -32,6 +32,20 @@
                 Create an account or use a pre-existing one—no need for verification.
                 Upload a custom profile picture or select from a list.
                 Post your own thoughts or reply to others'.
+            </div>
+        </a>
+    </div>
+
+    <div class="project">
+        <a href="/dice-room">
+            <div class="img-wrapper">
+                <img src="/img/portfolio/diceroom_preview.png">
+            </div>
+            <h2>Dice Room</h2>
+            <div class="description">
+                A messenger and dice-roller made with React, Apollo, and GraphQL.
+                Send messages and roll polyhedral dice for your roleplaying games.
+                Supports multiple concurrent users. Updates in real-time.
             </div>
         </a>
     </div>
